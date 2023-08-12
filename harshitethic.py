@@ -33,8 +33,8 @@ running = False
 cache = None
 qcache = None
 chat_log = None
-botname = 'Harshit ethic'
-username = 'harshitethic_bot'
+botname = 'Your's Truly'
+username = 'Saitama_AU'
 # Max chat log length (A token is about 4 letters and max tokens is 2048)
 max = int(3000)
 
@@ -188,7 +188,7 @@ def wait(bot, update, botname, username, new):
                 qcache = None
                 user = ""
                 username = 'harshitethic_bot'
-                botname = 'Harshit Ethic'
+                botname = 'Your\'s Truly'
                 update.message.reply_text('Timer has run down, bot has been reset to defaults.')
                 running = False
     else:
